@@ -37,3 +37,11 @@ yarn-error.*
 # OS
 .DS_Store
 Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+ayurtrust_env/
+ayurtrust_backend_env/
+venv/
