@@ -6,14 +6,14 @@ import axios from "axios";
 // would mean the phone itself. Use the laptop's Wi-Fi (LAN) address.
 // Windows: run  ipconfig  and copy the IPv4 Address.
 // ---------------------------------------------------------------
-export const API_BASE_URL = "http://192.168.1.42:8000";
+export const API_BASE_URL = "http://10.202.165.40:8000";
 
 // ---------------------------------------------------------------
 // 2. THE ONE SWITCH THAT CONTROLS EVERYTHING
 // true  = fake but realistic responses, no backend needed at all
 // false = real calls to Member 1's FastAPI server
 // ---------------------------------------------------------------
-export const MOCK_MODE = true;
+export const MOCK_MODE = false;
 
 // Set to "flagged" to rehearse the rejection path in your demo.
 export const MOCK_OUTCOME = "verified"; // "verified" | "flagged"
